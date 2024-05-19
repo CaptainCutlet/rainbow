@@ -1,0 +1,12 @@
+.aboutText {
+    color: white;
+}
+
+.aboutText h2 {
+    font-size: 2rem;
+}
+
+.aboutText p {
+    font-size: 1rem;
+    font-weight: bold;
+}

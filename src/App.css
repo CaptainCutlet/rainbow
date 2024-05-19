@@ -1,0 +1,25 @@
+.App {
+  background: repeating-linear-gradient(135deg,
+      red,
+      orange 16.67%,
+      yellow 33.33%,
+      green 50%,
+      blue 66.67%,
+      indigo 83.33%,
+      violet 100%);
+}
+
+.section {
+  margin: 0;
+  padding: 10%;
+}
+
+#sectionA {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#sectionB {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
