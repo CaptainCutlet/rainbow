@@ -17,7 +17,7 @@ const AboutLogos = () => {
                 <img src="/assets/bmw.jpeg" alt="Logo 4" />
             </div>
             <div className="logo-container">
-                <img src="/assets/Apple.png" alt="Logo 5" />
+                <img src="/assets/apple.png" alt="Logo 5" />
             </div>
             <div className="logo-container">
                 <img src="/assets/mercedes.jpg" alt="Logo 6" />
@@ -27,9 +27,6 @@ const AboutLogos = () => {
             </div>
             <div className="logo-container">
                 <img src="/assets/pepsi.jpg" alt="Logo 8" />
-            </div>
-            <div className="logo-container">
-                <img src="/assets/skittles.jpg" alt="Logo 9" />
             </div>
         </div>
     );

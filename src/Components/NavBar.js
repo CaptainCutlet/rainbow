@@ -7,7 +7,6 @@ const NavBar = () => {
         <nav className="navbar">
             <Link to="sectionA" smooth={true} duration={500}>Home</Link>
             <Link to="sectionB" smooth={true} duration={500}>About</Link>
-            <Link to="sectionC" smooth={true} duration={500}>Token Allocations</Link>
             <Link to="sectionD" smooth={true} duration={500}>How to buy</Link>
         </nav>
     );

@@ -42,3 +42,33 @@
     z-index: 3;
     transform: rotate(-4deg);
 }
+
+/* Media query for mobile devices */
+@media (max-width: 600px) {
+    .home-media {
+        height: auto;
+        /* Adjust the height to fit content */
+        flex-direction: column;
+        /* Stack items vertically */
+    }
+
+    .media-item {
+        width: 80%;
+        /* Make media items smaller */
+        height: auto;
+        margin-bottom: 20px;
+        /* Add space between items */
+        position: relative;
+        transform: none;
+        /* Remove rotation for better fit */
+        top: auto;
+        left: auto;
+    }
+
+    .media-item1,
+    .media-item2,
+    .media-item3 {
+        position: static;
+        /* Ensure items stack properly */
+    }
+}

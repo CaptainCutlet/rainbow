@@ -22,6 +22,10 @@ function App() {
       <div id='sectionD' className='section'>
         <HowToBuy />
       </div>
+      <div class="footer">
+        <p>© 2024 RainbowCapitalism. All rights reserved.</p>
+      </div>
+
     </div>
   );
 }
