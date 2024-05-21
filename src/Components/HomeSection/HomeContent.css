@@ -8,6 +8,10 @@
     font-weight: bold;
 }
 
+.home-content h1 {
+    font-size: 4rem;
+}
+
 .logos2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -39,4 +43,14 @@
 .logo-container2:hover img {
     transform: scale(1.1);
     /* Zoom effect on hover */
+}
+
+.home-content img {
+    width: 90%;
+}
+
+@media (max-width: 600px) {
+    .home-content h1 {
+        font-size: 2rem;
+    }
 }

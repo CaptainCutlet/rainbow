@@ -6,6 +6,7 @@ import HomeMedia from './Components/HomeSection/HomeMedia';
 import AboutLogos from './Components/AboutSection/AboutLogos';
 import AboutText from './Components/AboutSection/AboutText';
 import HowToBuy from './Components/HowToBuy/HowToBuy';
+import ImageGrid from './Components/ImageGrid';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <HomeContent />
         <HomeMedia />
       </div>
+      <ImageGrid />
       <div id='sectionB' className='section'>
         <AboutLogos />
         <AboutText />
@@ -25,7 +27,6 @@ function App() {
       <div class="footer">
         <p>© 2024 RainbowCapitalism. All rights reserved.</p>
       </div>
-
     </div>
   );
 }

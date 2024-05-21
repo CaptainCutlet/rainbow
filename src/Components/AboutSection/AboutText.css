@@ -7,10 +7,11 @@
 }
 
 .aboutText p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
-.aboutText img {
-    width: 90%;
+.aboutText li {
+    font-size: 1.25rem;
+    letter-spacing: 120%;
 }
