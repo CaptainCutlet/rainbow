@@ -1,0 +1,74 @@
+.home-media {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.media-item {
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.media-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.media-item1 {
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transform: rotate(-3deg);
+}
+
+.media-item2 {
+    top: 25%;
+    left: 50%;
+    z-index: 2;
+    transform: rotate(2deg);
+}
+
+.media-item3 {
+    top: 60%;
+    left: 10%;
+    z-index: 3;
+    transform: rotate(-4deg);
+}
+
+/* Media query for mobile devices */
+@media (max-width: 600px) {
+    .home-media {
+        height: auto;
+        /* Adjust the height to fit content */
+        flex-direction: column;
+        /* Stack items vertically */
+    }
+
+    .media-item {
+        width: 80%;
+        /* Make media items smaller */
+        height: auto;
+        margin-bottom: 20px;
+        /* Add space between items */
+        position: relative;
+        transform: none;
+        /* Remove rotation for better fit */
+        top: auto;
+        left: auto;
+    }
+
+    .media-item1,
+    .media-item2,
+    .media-item3 {
+        position: static;
+        /* Ensure items stack properly */
+    }
+}
