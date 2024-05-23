@@ -4,10 +4,10 @@ import './NavBar.css';
 
 const NavBar = () => {
     return (
-        <nav className="navbar">
-            <Link to="sectionA" smooth={true} duration={500}>Home</Link>
-            <Link to="sectionB" smooth={true} duration={500}>About</Link>
-            <Link to="sectionD" smooth={true} duration={500}>How to buy</Link>
+        <nav className="navbar">   
+            <Link to="sectionA" smooth={true} duration={500}><span className='rainbow_text_animated'>Home</span></Link>
+            <Link to="sectionB" smooth={true} duration={500}><span className='rainbow_text_animated'>About</span></Link>
+            <Link to="sectionD" smooth={true} duration={500}><span className='rainbow_text_animated'>How to buy</span></Link>
         </nav>
     );
 }

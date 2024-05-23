@@ -1,11 +1,14 @@
 .home-content {
-    text-align: center;
     padding: 20px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .home-content p {
     font-size: 1.5rem;
     font-weight: bold;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    line-height: 40px;
 }
 
 .home-content h1 {
@@ -52,5 +55,13 @@
 @media (max-width: 600px) {
     .home-content h1 {
         font-size: 2rem;
+    }
+    .home-content {
+        text-align: center;
+    }
+    .home-content p {
+        text-align: center;
+        font-size: 1.2rem;
+        line-height: 30px;
     }
 }

@@ -1,19 +1,24 @@
 .navbar {
     position: fixed;
-    top: 0;
+    top: 30px;
     width: 100%;
-    background-color: #6a0dad;
+    height: 5vh;
+    background: #fff;
+    animation: rainbow_animation 4s linear infinite;;
+    background-size: 400% 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 2%;
     z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 10px #00000029;
 }
 
 .navbar a {
     color: white;
+    font-family: "Montserrat", sans-serif;
     text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
     font-size: 18px;
     font-weight: bold;
     transition: color 0.3s ease;
@@ -22,4 +27,27 @@
 .navbar a:hover {
     color: #d8bfd8;
     cursor: pointer;
+}
+
+.bndlr-bundle-description,
+.bndlr-bundle-title {
+  color: #fff;
+}
+
+.rainbow_text_animated {
+    background: linear-gradient(90deg, rgba(153, 69, 255, .75), rgba(20, 241, 149, .4), rgba(153, 69, 255, .75)), 0 0 / 200% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 4s linear infinite;;
+    background-size: 400% 100%;
+}
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
 }

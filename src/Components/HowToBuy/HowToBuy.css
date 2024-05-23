@@ -2,20 +2,40 @@
     text-align: center;
     padding: 20px;
     max-width: 600px;
+    border-radius: 20px;
     margin: 0 auto;
     /* Center the container */
-    background-color: #f9f9f9;
+    background-color: rgba(153, 69, 255, .75);
     /* Light background color */
-    border-radius: 8px;
     /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     /* Subtle shadow */
 }
-
+ ol {
+    text-align: left;
+ }
 .how-to-buy h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: #333;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.8rem;
+}
+.how-to-buy h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.how-to-buy h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
 }
 
 .how-to-buy ol {
@@ -26,5 +46,23 @@
 .how-to-buy li {
     margin: 10px 0;
     font-size: 18px;
-    color: #555;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+.rainbow_text_animated6 {
+    background: linear-gradient(90deg, rgba(69, 233, 255, 0.926), rgba(242, 246, 13, 0.903), rgba(255, 48, 33, 0.903)), 0 0 / 200% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation6 4s linear infinite;
+    background-size: 400% 100%;
+}
+@keyframes rainbow_animation6 {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
 }

@@ -28,6 +28,9 @@ const AboutLogos = () => {
             <div className="logo-container">
                 <img src="/assets/pepsi.jpg" alt="Logo 8" />
             </div>
+            <div className="logo-container2">
+                <img className='xbox-img' src="/assets/xbox.png" alt="Logo 8" />
+            </div>
         </div>
     );
 }

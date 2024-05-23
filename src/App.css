@@ -14,6 +14,13 @@
   padding: 10%;
 }
 
+#section1 {
+    background-repeat: repeat;
+    background-position: center;
+    background-color: #fff;
+    height: 100vh;
+}
+
 #sectionA {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -25,6 +32,21 @@
 }
 
 /* Footer Styles */
+.rainbow-background-animated {
+  background: linear-gradient(90deg, rgba(153, 69, 255, .75), rgba(20, 241, 149, .4), rgba(153, 69, 255, .75)), 0 0 / 200% 100%;
+  color: transparent;
+  animation: rainbow_animation 4s linear infinite;;
+  background-size: 400% 100%;
+}
+@keyframes rainbow_animation {
+  0%,100% {
+      background-position: 0 0;
+  }
+
+  50% {
+      background-position: 100% 0;
+  }
+}
 .footer {
   position: static;
   padding: 20px;
@@ -37,6 +59,7 @@
 .footer p {
   margin: 0;
   font-size: 16px;
+  color: #fff;
 }
 
 /* Media query for mobile devices */
