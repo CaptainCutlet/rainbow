@@ -15,3 +15,86 @@
     font-size: 1.25rem;
     letter-spacing: 120%;
 }
+
+.wrap-container {
+    background-color: rgba(153, 69, 255, .75);
+    padding: 50px 20px;
+    border-radius: 20px;
+}
+
+.wrap-container p {
+    font-weight: 400;
+}
+
+.value1 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.value2 {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.value3 {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.rainbow_text_animated-about {
+    background: linear-gradient(90deg, rgba(69, 233, 255, 0.926), rgba(242, 246, 13, 0.903), rgba(255, 48, 33, 0.903)), 0 0 / 200% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 4s linear infinite;
+    background-size: 400% 100%;
+}
+
+.rainbow_text_animated2 {
+    background: linear-gradient(90deg, rgba(134, 255, 69, 0.926), rgba(246, 36, 13, 0.903), rgba(255, 255, 33, 0.936)), 0 0 / 200% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 4s linear infinite;
+    background-size: 400% 100%;
+}
+
+.rainbow_text_animated3 {
+    background: linear-gradient(90deg, rgba(246, 36, 13, 0.903), rgba(134, 255, 69, 0.926), rgba(255, 255, 33, 0.936)), 0 0 / 200% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 4s linear infinite;
+    background-size: 400% 100%;
+}
+
+.rainbow_text_animated4 {
+    background: linear-gradient(90deg, rgba(255, 255, 33, 0.936), rgba(134, 255, 69, 0.926), rgba(246, 36, 13, 0.903)), 0 0 / 200% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 4s linear infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+
+    0%,
+    100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .aboutText {
+        padding-top: 50px;
+    }
+
+    .aboutText p {
+        font-size: 1.2rem !important;
+    }
+}

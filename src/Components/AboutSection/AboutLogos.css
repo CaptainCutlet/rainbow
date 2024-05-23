@@ -40,6 +40,20 @@
     /* Zoom effect on hover */
 }
 
+.logo-container2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ensures the image covers the container */
+    transition: transform 0.3s ease;
+    /* Smooth zoom effect on hover */
+}
+
+.logo-container2:hover img {
+    transform: scale(1.1);
+    /* Zoom effect on hover */
+}
+
 /* Media query for mobile devices */
 @media (max-width: 600px) {
     .about-logos {
@@ -49,6 +63,10 @@
         /* Adjust gap between logos */
         padding: 5px;
         /* Adjust padding around the container */
+    }
+
+    .logo-container2 {
+        display: none !important;
     }
 
     .logo-container {
