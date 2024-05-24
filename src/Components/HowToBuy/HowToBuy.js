@@ -13,6 +13,7 @@ const HowToBuy = () => {
                 <li>Log into Uniswap or any other base DEX that supports $RAINBOW.</li>
                 <li>Enter our contract address in the swap field.</li>
                 <li>Simply swap ETH for $RAINBOW.</li>
+                <li>CA: 0x68AA3F1E8BFC29562a594a992900A95Cd3f5E7C8</li>
             </ol>
         </div>
     );

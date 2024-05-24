@@ -29,25 +29,26 @@ const Hero = () => {
                         <h4 className='h4-middle'>This shit is so <span className='rainbow_text_animated1'>annoying.</span></h4>
                         <img className='rainbow-line2' src='/assets/rainbow-line.png'></img>
                     </div>
+                    <h2>Official CA: 0x68AA3F1E8BFC29562a594a992900A95Cd3f5E7C8</h2>
                     <div className='logo-area'>
-                    <div className="logo-container-hero" onClick={() => handleRedirect('https://t.me/+JPMJlF3DCRQ0NTUx')}>
-                    <img src='/assets/telegram-icon-new.png' alt="Telegram" />
-                </div>
-                <div className="logo-container-hero" onClick={() => handleRedirect('https://x.com/0xgaycapitalism?s=21&t=tHBdjygLot0cNeq8gDNIYQ')}>
-                    <img src='/assets/xx.png' alt="Twitter" />
-                </div>
-                <div className="logo-container-hero" onClick={() => handleRedirect('https://dexscreener.com')}>
-                    <img src='/assets/ds.png' alt="Dexscreener" />
-                </div>
+                        <div className="logo-container-hero" onClick={() => handleRedirect('https://t.me/+JPMJlF3DCRQ0NTUx')}>
+                            <img src='/assets/telegram-icon-new.png' alt="Telegram" />
+                        </div>
+                        <div className="logo-container-hero" onClick={() => handleRedirect('https://x.com/0xgaycapitalism?s=21&t=tHBdjygLot0cNeq8gDNIYQ')}>
+                            <img src='/assets/xx.png' alt="Twitter" />
+                        </div>
+                        <div className="logo-container-hero" onClick={() => handleRedirect('https://dexscreener.com')}>
+                            <img src='/assets/ds.png' alt="Dexscreener" />
+                        </div>
                     </div>
 
                 </div>
 
 
             </div>
-                
-                
-                
+
+
+
         </div>
     );
 }

@@ -8,7 +8,7 @@ const Ticker = () => {
     return (
         <div className="Ticker">
             <div className="ticker-slide">
-                <h2 className="slideInOut">$RAINBOW</h2>
+                <h2 className="slideInOut">$RAINBOW $RAINBOW $RAINBOW $RAINBOW $RAINBOW $RAINBOW $RAINBOW</h2>
             </div>
         </div>
     );
