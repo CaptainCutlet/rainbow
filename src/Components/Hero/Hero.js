@@ -37,7 +37,7 @@ const Hero = () => {
                         <div className="logo-container-hero" onClick={() => handleRedirect('https://x.com/0xgaycapitalism?s=21&t=tHBdjygLot0cNeq8gDNIYQ')}>
                             <img src='/assets/xx.png' alt="Twitter" />
                         </div>
-                        <div className="logo-container-hero" onClick={() => handleRedirect('https://dexscreener.com')}>
+                        <div className="logo-container-hero" onClick={() => handleRedirect('https://dexscreener.com/base/0x680276bb6c2023dfa5b5f37950703bd5826cd9bc')}>
                             <img src='/assets/ds.png' alt="Dexscreener" />
                         </div>
                     </div>
