@@ -61,3 +61,9 @@
     background-position: 100% 0;
   }
 }
+
+@media (max-width: 600px) {
+  .slideInOut {
+    animation: slideInOut 15s linear infinite;
+  }
+}

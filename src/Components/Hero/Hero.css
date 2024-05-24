@@ -41,10 +41,12 @@
 .logo-animation {
     display: flex;
     justify-content: end;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo-dancing {
-    width: 400px;
+    width: 70%;
     transform: scale(2);
     text-align: right;
 }
@@ -177,6 +179,7 @@
     }
 
     .logo-animation {
+        margin-top: 30%;
         display: flex;
         justify-content: center;
     }
@@ -200,5 +203,9 @@
 
     .middle-area h4 {
         font-size: 1.2rem;
+    }
+
+    .hero h2 {
+        font-size: 1rem;
     }
 }
